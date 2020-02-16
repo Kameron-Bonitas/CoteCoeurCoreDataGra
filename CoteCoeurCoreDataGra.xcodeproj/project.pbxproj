@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D9EE5A555F057ACD1605EBA /* Pods_CoteCoeurCoreDataGra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF19568FB388EA3C92C61351 /* Pods_CoteCoeurCoreDataGra.framework */; };
 		B5DA3E7A23F934C000DC8959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3E7923F934C000DC8959 /* AppDelegate.swift */; };
 		B5DA3E7C23F934C000DC8959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3E7B23F934C000DC8959 /* SceneDelegate.swift */; };
 		B5DA3E7F23F934C000DC8959 /* CoteCoeurCoreDataGra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3E7D23F934C000DC8959 /* CoteCoeurCoreDataGra.xcdatamodeld */; };
@@ -16,6 +17,10 @@
 		B5DA3E8923F934C300DC8959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DA3E8723F934C300DC8959 /* LaunchScreen.storyboard */; };
 		B5DA3E9423F934C300DC8959 /* CoteCoeurCoreDataGraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3E9323F934C300DC8959 /* CoteCoeurCoreDataGraTests.swift */; };
 		B5DA3E9F23F934C300DC8959 /* CoteCoeurCoreDataGraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3E9E23F934C300DC8959 /* CoteCoeurCoreDataGraUITests.swift */; };
+		B5FEDF9723F9368A0018C4A4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDF9623F9368A0018C4A4 /* MyViewController.swift */; };
+		B5FEDF9923F999DA0018C4A4 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDF9823F999DA0018C4A4 /* PopUpViewController.swift */; };
+		B5FEDF9B23F99BD50018C4A4 /* UIButton + Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDF9A23F99BD50018C4A4 /* UIButton + Border.swift */; };
+		B5FEDF9D23F9B8E70018C4A4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDF9C23F9B8E70018C4A4 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F5769A0805FAB1A68A9D25 /* Pods-CoteCoeurCoreDataGra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoteCoeurCoreDataGra.release.xcconfig"; path = "Target Support Files/Pods-CoteCoeurCoreDataGra/Pods-CoteCoeurCoreDataGra.release.xcconfig"; sourceTree = "<group>"; };
 		B5DA3E7623F934BF00DC8959 /* CoteCoeurCoreDataGra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoteCoeurCoreDataGra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA3E7923F934C000DC8959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5DA3E7B23F934C000DC8959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		B5DA3E9A23F934C300DC8959 /* CoteCoeurCoreDataGraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoteCoeurCoreDataGraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA3E9E23F934C300DC8959 /* CoteCoeurCoreDataGraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoteCoeurCoreDataGraUITests.swift; sourceTree = "<group>"; };
 		B5DA3EA023F934C300DC8959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FEDF9623F9368A0018C4A4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		B5FEDF9823F999DA0018C4A4 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		B5FEDF9A23F99BD50018C4A4 /* UIButton + Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Border.swift"; sourceTree = "<group>"; };
+		B5FEDF9C23F9B8E70018C4A4 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D56F53F092F49B7F0BEB5680 /* Pods-CoteCoeurCoreDataGra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoteCoeurCoreDataGra.debug.xcconfig"; path = "Target Support Files/Pods-CoteCoeurCoreDataGra/Pods-CoteCoeurCoreDataGra.debug.xcconfig"; sourceTree = "<group>"; };
+		FF19568FB388EA3C92C61351 /* Pods_CoteCoeurCoreDataGra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoteCoeurCoreDataGra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9EE5A555F057ACD1605EBA /* Pods_CoteCoeurCoreDataGra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1269706BDB0D39B4F44794F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D56F53F092F49B7F0BEB5680 /* Pods-CoteCoeurCoreDataGra.debug.xcconfig */,
+				02F5769A0805FAB1A68A9D25 /* Pods-CoteCoeurCoreDataGra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1BEB73D42BC5E1B5D98C81B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF19568FB388EA3C92C61351 /* Pods_CoteCoeurCoreDataGra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5DA3E6D23F934BF00DC8959 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				B5DA3E9223F934C300DC8959 /* CoteCoeurCoreDataGraTests */,
 				B5DA3E9D23F934C300DC8959 /* CoteCoeurCoreDataGraUITests */,
 				B5DA3E7723F934BF00DC8959 /* Products */,
+				A1269706BDB0D39B4F44794F /* Pods */,
+				A1BEB73D42BC5E1B5D98C81B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +141,9 @@
 				B5DA3E8A23F934C300DC8959 /* Info.plist */,
 				B5DA3E7D23F934C000DC8959 /* CoteCoeurCoreDataGra.xcdatamodeld */,
 				B5DA3E8423F934C300DC8959 /* Preview Content */,
+				B5FEDF9623F9368A0018C4A4 /* MyViewController.swift */,
+				B5FEDF9823F999DA0018C4A4 /* PopUpViewController.swift */,
+				B5FEDF9A23F99BD50018C4A4 /* UIButton + Border.swift */,
 			);
 			path = CoteCoeurCoreDataGra;
 			sourceTree = "<group>";
@@ -117,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				B5DA3E8523F934C300DC8959 /* Preview Assets.xcassets */,
+				B5FEDF9C23F9B8E70018C4A4 /* MyTableViewCell.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -146,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5DA3EA323F934C300DC8959 /* Build configuration list for PBXNativeTarget "CoteCoeurCoreDataGra" */;
 			buildPhases = (
+				AF0C2F5C59243081613AC961 /* [CP] Check Pods Manifest.lock */,
 				B5DA3E7223F934BF00DC8959 /* Sources */,
 				B5DA3E7323F934BF00DC8959 /* Frameworks */,
 				B5DA3E7423F934BF00DC8959 /* Resources */,
+				22B72B9B3D7EE96E44BFCD8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,14 +303,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B72B9B3D7EE96E44BFCD8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoteCoeurCoreDataGra/Pods-CoteCoeurCoreDataGra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoteCoeurCoreDataGra/Pods-CoteCoeurCoreDataGra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoteCoeurCoreDataGra/Pods-CoteCoeurCoreDataGra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0C2F5C59243081613AC961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoteCoeurCoreDataGra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5DA3E7223F934BF00DC8959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5DA3E7A23F934C000DC8959 /* AppDelegate.swift in Sources */,
+				B5FEDF9D23F9B8E70018C4A4 /* MyTableViewCell.swift in Sources */,
+				B5FEDF9923F999DA0018C4A4 /* PopUpViewController.swift in Sources */,
+				B5FEDF9B23F99BD50018C4A4 /* UIButton + Border.swift in Sources */,
 				B5DA3E7F23F934C000DC8959 /* CoteCoeurCoreDataGra.xcdatamodeld in Sources */,
 				B5DA3E8123F934C000DC8959 /* ContentView.swift in Sources */,
+				B5FEDF9723F9368A0018C4A4 /* MyViewController.swift in Sources */,
 				B5DA3E7C23F934C000DC8959 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +520,7 @@
 		};
 		B5DA3EA423F934C300DC8959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56F53F092F49B7F0BEB5680 /* Pods-CoteCoeurCoreDataGra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +541,7 @@
 		};
 		B5DA3EA523F934C300DC8959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F5769A0805FAB1A68A9D25 /* Pods-CoteCoeurCoreDataGra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
